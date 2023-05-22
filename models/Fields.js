@@ -20,6 +20,9 @@ const fieldsSchema = new mongoose.Schema({
   zipcode: {
     type: [String],
   },
+  state: {
+    type: [String],
+  },
 });
 
 module.exports = mongoose.model("Fields", fieldsSchema);
